@@ -1,0 +1,117 @@
+body {
+  background-color: lightblue;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.ch1_coins {
+  display: flex;
+}
+
+.ch2_coins {
+  display: flex;
+}
+
+.ch3_coins {
+  display: flex;
+}
+
+.ch4_coins {
+  display: flex;
+}
+
+.ch5_coins {
+  display: flex;
+  height: 450px;
+}
+
+.ch6_coins {
+  display: flex;
+  height: 450px;
+}
+
+.ch7_coins {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.ch8_coins {
+  display: flex;
+  height: 450px;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.coin {
+  width: 100px;
+  height: 100px;
+}
+
+.toad {
+  width: 100px;
+  height: 150px;
+}
+
+.yellow_toad {
+  width: 100px;
+  height: 125px;
+}
+
+.blue_toad {
+  height: 125px;
+}
+
+#ch1_toads {
+  display:flex;
+  justify-content: flex-end;
+}
+
+#ch2_toads {
+  display:flex;
+  justify-content: center;
+}
+
+#ch3_toads {
+  display:flex;
+  justify-content: space-between;
+}
+
+#ch4_toads {
+  display:flex;
+  justify-content: space-around;
+}
+
+#ch5_toads {
+  display:flex;
+}
+
+#ch6_toads {
+  display:flex;
+  justify-content: space-around;
+}
+
+#ch7_toads {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#ch8_toads {
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.challenge_box {
+  background-color: #f7f4e9;
+  margin: 4px;
+
+  border-radius: 25px;
+  border: 2px solid gray;
+  padding: 20px;
+}
